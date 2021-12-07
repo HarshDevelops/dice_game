@@ -12,9 +12,13 @@
 
 <body>
 
-  <div class="container">
-    <h1>Refresh Me</h1>
+  <div class="initial" id="initial">
+    <h1>Roll The Dice</h1>
+    <button class="initial_buttons" onclick="startnow();">Roll it</button>
+  </div>
 
+  <div class="container dontshow" id="container">
+    <h1 id="result"></h1>
     <div class="dice">
       <p>Player 1</p>
       <img class="img" src="/dice_game/images/dice6.png">
@@ -28,7 +32,7 @@
     <br>
     <br>
     <div>
-      <button class="reroll_button" onclick="window.location.reload();">Re-Roll</button>
+      <button class="reroll_button" onclick="aftermath();">Re-Roll</button>
     </div>
 
   </div>
@@ -37,17 +41,17 @@
 </body>
 
 <footer>
-  Made with ♥ By <a href="https://github.com/HarshDevelops" style="color:hotpink" >Harsh Srivastava</a>
+  Made with ♥ By <a href="https://github.com/HarshDevelops" style="color:hotpink">Harsh Srivastava</a>
   <div class="social_footer">
     <a href="https://www.facebook.com/harsh.srivastava.77985741/" target="_blank">
-      <img src="/dice_game/images/facebook.png"alt="facebook">
+      <img src="/dice_game/images/facebook.png" alt="facebook">
     </a>
 
     <a href="https://www.instagram.com/sharsh_20/" target="_blank">
       <img src="/dice_game/images/instagram.png" alt="instagram">
     </a>
 
-    <a href="https://twitter.com/harsh10822" target="_blank"> 
+    <a href="https://twitter.com/harsh10822" target="_blank">
       <img src="/dice_game/images/twitter.png" alt="twitter">
     </a>
 
